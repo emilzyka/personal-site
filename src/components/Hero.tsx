@@ -1,4 +1,5 @@
 import React from 'react';
+import bg from '../img/bgHero.jpg';
 
 function Hero() {
   const goToAbout = () => {
@@ -12,7 +13,9 @@ function Hero() {
   });
 
   return (
-    <section className='min-h-screen flex flex-col justify-center items-center p-5 text-center bg-hero-pattern bg-fixed'>
+    <section
+      style={{ backgroundImage: `url(${bg})` }}
+      className='min-h-screen flex flex-col justify-center items-center p-5 text-center bg-fixed'>
       <div className='flex flex-col'>
         <h2 className='text-4xl  uppercase font-bold text-rose-500 dark:text-white'>
           Hello.

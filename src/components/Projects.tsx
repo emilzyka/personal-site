@@ -1,10 +1,10 @@
 import React from 'react';
 import Section from './common/Section';
 import { BiCode } from 'react-icons/bi';
-import card from '../../public/card.jpg';
-import tiles from '../../public/tiles.jpg';
-import lib from '../../public/library.jpg';
-import recipe from '../../public/recipe.jpg';
+import card from '../img/card.jpg';
+import tiles from '../img/tiles.jpg';
+import lib from '../img/library.jpg';
+import recipe from '../img/recipe.jpg';
 
 function Projects() {
   const projects = [

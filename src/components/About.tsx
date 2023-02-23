@@ -4,7 +4,8 @@ import { SlClock } from 'react-icons/sl';
 import { HiWrenchScrewdriver } from 'react-icons/hi2';
 import { AiOutlineMobile } from 'react-icons/ai';
 import { FaPenFancy } from 'react-icons/fa';
-import portrait from '../../public/me.jpg';
+import portrait from '../img/me.jpg';
+import bg from '../img/stripes.jpg';
 
 function About() {
   const aboutPrinciples = [
@@ -40,7 +41,9 @@ function About() {
 
   return (
     <Section title="Who's this guy?" sectionId='about' subtitle=''>
-      <div className='flex items-center bg-about-pattern bg-bottom rounded-md'>
+      <div
+        style={{ backgroundImage: `url(${bg})` }}
+        className='flex items-center bg-bottom rounded-md'>
         <p className='text-3xl text-white opacity-95 font-bold max-w-sm lg:max-w-md'>
           Software Developer, passion for maintainability
         </p>
