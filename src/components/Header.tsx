@@ -30,7 +30,7 @@ function Header({
   ];
 
   return (
-    <header className='bg-white dark:bg-gray-800 text-gray-900 dark:text-white sticky top-0 z-50'>
+    <header className='bg-white dark:bg-slate-900 text-gray-900 dark:text-white sticky top-0 z-50'>
       <nav className='flex flex-wrap items-center justify-between mx-auto p-1'>
         <div className='flex'>
           <Dropdown />

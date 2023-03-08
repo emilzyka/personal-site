@@ -19,17 +19,18 @@ function About() {
     {
       id: 2,
       icon: (
-        <HiWrenchScrewdriver className='w-16 h-16 md:w-20 object-contain text-rose-400 p-1.5 border-rose-400' />
+        <AiOutlineMobile className='w-16 h-16 md:w-20 object-contain text-rose-400 p-1.5 border-rose-400' />
       ),
-      desc: "I'm versatile and regularly adding new skills to my skill set",
+      desc: 'I believe technology can improve the way people live their everyday lives.',
     },
     {
       id: 3,
       icon: (
-        <AiOutlineMobile className='w-16 h-16 md:w-20 object-contain text-rose-400 p-1.5 border-rose-400' />
+        <HiWrenchScrewdriver className='w-16 h-16 md:w-20 object-contain text-rose-400 p-1.5 border-rose-400' />
       ),
-      desc: 'I seek opportunities where technology can improve the way people live their everyday lives.',
+      desc: "I'm curious and regularly explore new areas wich is why I can keep with modern trends.",
     },
+
     {
       id: 4,
       icon: (
@@ -79,7 +80,7 @@ function About() {
         Azure DevOps, Git, VS code, Visual Studio.
         <br></br>
       </p>
-      <div className='grid gap-5 grid-cols-2 lg:gap-10 m-10'>
+      <div className='grid gap-5 smm:grid-cols-1 grid-cols-2 lg:gap-10 m-10'>
         {aboutPrinciples.map(({ id, icon, desc }) => (
           <div
             key={id}
