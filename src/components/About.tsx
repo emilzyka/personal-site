@@ -56,6 +56,7 @@ function About() {
           />
         </div>
       </div>
+
       <p className='max-w-xl mt-10 font-light text-justify text-lg lg:text-2xl text-gray-400'>
         I currently work as an IT Consultant at Consid. I have a degree in
         system development. I'm intrested in software architecture and
@@ -70,7 +71,7 @@ function About() {
       <p className='text-5xl font-bold mt-12 underline underline-offset-8 decoration-rose-400 decoration-1'>
         Competencies
       </p>
-      <p className='mt-8 p-1 text-justify font-light text-gray-400 text-lg'>
+      <p className='mt-8 p-1 text-center font-light text-gray-400 text-lg'>
         HTML, CSS, TS, JS, React, Redux, Bootstrap,
         <br></br>
         TailwindCSS, C#, Python, PHP, ASP.NET,

@@ -1,7 +1,6 @@
 import React from 'react';
 import { SiTailwindcss, SiTypescript } from 'react-icons/si';
 import { IoLogoReact } from 'react-icons/io5';
-import { BiCode } from 'react-icons/bi';
 
 function Footer() {
   const tech = [
@@ -23,7 +22,7 @@ function Footer() {
       <p className='text-center mb-5 text-gray-500 italic'>
         Built by myself, with:
       </p>
-      <div className='flex justify-center gap-6 mb-3'>
+      <div className='flex justify-center gap-6'>
         {tech.map(({ id, icon }) => (
           <div
             key={id}
